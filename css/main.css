@@ -1111,19 +1111,20 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	margin-left: 0px;
 }
 header .top-bar {
 	display: block;
 	background: #192134;
-	min-width: 150px;
+	min-width: 200px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: 0%;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-right: 50px;
 	margin-top: 25px;
 	position: relative;
@@ -1366,7 +1367,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-medium", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
